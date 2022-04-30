@@ -1,5 +1,7 @@
 import axios from "axios"
 
+// console.log(axios)
+
 const swapiGetter = (id)=>
 axios
     .get('https://swapi.dev/api/people/'+id+'/')
